@@ -15,6 +15,7 @@ body{
     height: 660px;
     width: 100%;
     border: 0;
+    object-fit: cover;
 }
 .png{
     height: 20px;
@@ -276,3 +277,283 @@ ul{
 .endflex6{
     color: lightskyblue;
 }
+@media (min-width: 200px) and (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    .jpg{
+        margin: 0;
+        height: 620px;
+        width: 100%;
+        border: 0;
+        object-fit: cover;
+    }
+    .png{
+        height: 12px;
+    }
+    .overlay{
+        position: absolute;
+        top: 25px;
+        left: 5px;
+        color: white;
+        font-weight: bold;
+        font-family: "Bebas Neue";
+        text-transform: uppercase;
+    }
+    ul{
+        list-style: none;
+    }
+    .flexbo{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .item{
+        font-size: 10px;
+        height: 1px;
+        width: auto;
+    }
+    .item1{
+        margin-left:10px
+    }
+    .item2{
+        margin-left: 80px;
+    }
+    .item6{
+        margin-left: 60px;
+    }
+    .world{
+        position: absolute;
+        top: 200px;
+        left: 8px;
+    
+    }
+    .tne{
+        color: white;
+        font-family: "Bebas Neue";
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .paragraph{
+        color: white;
+        font-family: "poppins";
+        font-size: 8px;
+    }
+    .shkdh{
+        position: absolute;
+        top: 550px;
+        left: 8px;
+    }
+    .sksks0{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 5px;
+    }
+    .sksks{
+        height: 1px;
+        width: 100px;
+    }
+    .yyey{
+        float: left;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .Ayan{
+        color: white;
+        font-family: "poppins";
+        font-size: 6px;
+    }
+    .sksks2{
+        margin-left: 15px;
+    }
+    .sksks3{
+        margin-left: 15px;
+    }
+    .custom-hr{
+        color: white;
+        border: 2px solid white;
+        margin-top: 45px;
+        width: 94%;
+    }
+    .afterphoto{
+        color: white;
+        font-family: "bebas neue";
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .afterh1{
+        color: white;
+        font-family: "poppins";
+        font-size: 8px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .fortheparent{
+        display: flex;
+        justify-content: center;
+    }
+    .parent{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .afterpimg{
+        position: relative;
+        width: 75px;
+        height: 130px;
+    }
+    .forabsolutechild{
+        position: absolute;
+        top:90px;
+        left: 28px;
+        color: white;
+        font-family: "bebas neue";
+    }
+    .forabsolutechildh{
+        font-size: 9px;
+    }
+    .forabsolutechildph{
+        position: absolute;
+        top:100px;
+        left: 12px;
+    }
+    .forabsolutechildp{
+        color: white;
+        font-size: 5px;
+        font-family: "poppins";
+    }
+    .lastfooter{
+        margin-top: 40px;
+        height: 500px;
+        width: 100%;
+        position: relative;
+    }
+    .forabsolte{
+        position: absolute;
+        top:230px;
+        left: 20Px;
+    }
+    .forgridd{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.3fr 1fr;
+    }
+    .forgridc1{
+        grid-row-start: 1;
+        grid-row-end: 1.5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 380px;
+       
+    }
+    .footerh1{
+        color: white;
+        font-weight: bold;
+        font-family: "bebas neue";
+        font-size: 20px;
+    }
+    .forgridc2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+       display: flex;
+    }
+    .play-buttonpara{
+        margin-left: 3px;
+        height: 1vh;
+        align-self: center;
+    }
+    .footerpara1{
+        color: white;
+        font-family: "poppins";
+        font-size: 6px;
+    }
+    .bi-play-circle{
+        font-size: 12px;
+        color: white;
+    }
+    .forgridc3{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 1.5;
+    }
+    .footerpara2{
+        color: white;
+        font-size: 6px;
+    }
+    .forgridc4{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 2.5;
+        position: relative;
+        right: 250px;
+        bottom: 20px;
+    }
+    .forgridc5{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        right: 240px;
+        bottom: 20px;
+    }
+    .pppnng{
+        height: 50px;
+        width: 90px;
+        position: relative;
+    }
+    .play{
+        position: absolute;
+        top: 32%;
+        left: 42%;
+    }
+    .endfooter{
+        position: absolute;
+        top: 490px;
+        left: 70px;
+    }
+    .endflex{
+        display: flex;
+        gap:20px;
+    }
+    .endflex0{
+      font-size: 18px;
+    }
+    .endflex1{
+      color: red;
+    }
+    .endflex2{
+        color: red;
+    }
+    .endflex3{
+        color: lightskyblue;
+    }
+    .endflex4{
+        color: white;
+    }
+    .endflex5{
+        color: white;
+    }
+    .endflex6{
+        color: lightskyblue;
+    }
+} 
