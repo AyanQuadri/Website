@@ -353,7 +353,7 @@ ul{
     .shkdh{
         position: absolute;
         top: 550px;
-        left: 8px;
+        left: 28px;
     }
     .sksks0{
       display: flex;
@@ -385,7 +385,7 @@ ul{
         color: white;
         border: 2px solid white;
         margin-top: 45px;
-        width: 94%;
+        width: 100%;
     }
     .afterphoto{
         color: white;
@@ -415,13 +415,13 @@ ul{
     }
     .afterpimg{
         position: relative;
-        width: 75px;
+        width: 85px;
         height: 130px;
     }
     .forabsolutechild{
         position: absolute;
-        top:90px;
-        left: 28px;
+        top:100px;
+        left: 33px;
         color: white;
         font-family: "bebas neue";
     }
@@ -430,8 +430,8 @@ ul{
     }
     .forabsolutechildph{
         position: absolute;
-        top:100px;
-        left: 12px;
+        top:110px;
+        left: 15px;
     }
     .forabsolutechildp{
         color: white;
@@ -446,8 +446,8 @@ ul{
     }
     .forabsolte{
         position: absolute;
-        top:230px;
-        left: 20Px;
+        top:170px;
+        left: 40Px;
     }
     .forgridd{
         display: grid;
@@ -528,8 +528,8 @@ ul{
     }
     .endfooter{
         position: absolute;
-        top: 490px;
-        left: 70px;
+        top: 500px;
+        left: 95px;
     }
     .endflex{
         display: flex;
